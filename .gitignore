@@ -1,0 +1,60 @@
+# Direktori bin dan build, yang biasanya berisi output build
+/bin/
+/build/
+
+# File dan direktori yang dihasilkan Go saat kompilasi
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Direktori cache yang digunakan oleh Go untuk menyimpan paket terunduh
+/pkg/
+/tmp/
+
+# File atau direktori yang dihasilkan oleh Go module
+/go.sum
+/go.mod
+
+# File yang dihasilkan oleh tool seperti editor atau IDE
+*.out
+*.log
+*.tmp
+
+# Direktori vendor jika Anda menggunakannya
+/vendor/
+
+# File yang dibuat oleh Go coverage tools
+*.cover
+*.cov
+
+# File konfigurasi pribadi (misalnya, file environment)
+.env
+*.env
+
+# Database SQLite atau file data sementara
+*.db
+*.sqlite
+*.sqlite3
+
+# File editor dan IDE (VSCode, JetBrains, dll.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# File yang dihasilkan oleh debugger atau profiler
+*.prof
+*.trace
+
+# File lock atau data sementara yang dibuat oleh sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.bak
+
+# File log yang mungkin dibuat oleh aplikasi Anda
+*.log
